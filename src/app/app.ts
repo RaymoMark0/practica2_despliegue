@@ -9,5 +9,5 @@ import { Calendario } from './calendario/calendario';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('practica_final_despliegue');
+  protected readonly title = signal('Prueba inicial cambio rama feature fase2');
 }
