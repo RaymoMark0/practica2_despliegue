@@ -20,6 +20,6 @@ describe('App', () => {
     const fixture = TestBed.createComponent(App);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, practica_final_despliegue');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Prueba inicial cambio rama feature fase2');
   });
 });
